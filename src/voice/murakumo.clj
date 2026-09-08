@@ -18,7 +18,7 @@
   )
 
 (def modality :voice)
-(def actor-id "gftd-voice-actor")
+(def actor-id "voice-actor")
 
 (defn function
   "This actor's murakumo.edn `:apps :generation` function entry (SSoT stays

@@ -28,12 +28,12 @@
    :asset/kind kind
    :asset/format format
    :asset/title title
-   :asset/author "gftd-voice-actor"
+   :asset/author "voice-actor"
    :asset/license license
    :asset/tags (vec tags)
    :asset/source :gen
    :asset/gen {:stage :tts :job-key gen-job-id :prompt prompt
-               :provenance "murakumo/cosyvoice2 via gftd-voice-actor co-scientist loop"}
+               :provenance "murakumo/cosyvoice2 via voice-actor co-scientist loop"}
    :asset/created created})
 
 (defn write-asset!
