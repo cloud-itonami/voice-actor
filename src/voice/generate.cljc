@@ -24,7 +24,7 @@
   same round number reproduces the same candidates; exploration across the
   pool happens by round number advancing (voice.loop) and by biasing one
   gene slot toward the previous round's elite (voice.cosci/evolve-round)."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def gene-pool
   {:line-type ["a warm NPC greeting"
