@@ -1,6 +1,6 @@
 (ns voice.generate-test
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [voice.generate :as generate]))
 
 (def persona {:tags ["network-isekai"]})

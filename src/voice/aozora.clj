@@ -5,7 +5,7 @@
   CACAO. 1:1 port of the PROVEN `cloud_itonami.media.aozora` (itself ported
   from kawaraban.aozora <- tashikame.aozora) — see that namespace's docstring
   for the full design rationale."
-    (:require [clojure.string :as str]
+    (:require [kotoba.lang.text :as str]
             [kotoba.net.jvm-host :as jvm-host]
             [voice.cacao :as cacao]
             [voice.publisher :as publisher])
